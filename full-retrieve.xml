@@ -80,6 +80,10 @@
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.important__c</members>
+        <members>Application__c.Contact__c</members>
+        <members>Application__c.Program_of_Interest__c</members>
+        <members>Application__c.Status__c</members>
+        <members>Application__c.Submission_Date__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
@@ -106,6 +110,10 @@
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.opp_rating__c</members>
+        <members>Review__c.Application__c</members>
+        <members>Review__c.Recommendation__c</members>
+        <members>Review__c.Reviewer_Comments__c</members>
+        <members>Review__c.Reviewer__c</members>
         <members>Student__c.Mentor_Name__c</members>
         <members>Student__c.Student_Email__c</members>
         <members>my_custom_meta_data__mdt.rating__c</members>
@@ -360,6 +368,7 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>Review__c</members>
         <members>SalesStore</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
@@ -432,6 +441,7 @@
     <types>
         <members>Application__c-en_US</members>
         <members>Mentor__c-en_US</members>
+        <members>Review__c-en_US</members>
         <members>Student__c-en_US</members>
         <members>my_custom_meta_data__mdt-en_US</members>
         <name>CustomObjectTranslation</name>
@@ -659,6 +669,7 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>Review__c-Review Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -1053,6 +1064,8 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Application__c.Graduate_Admission</members>
+        <members>Application__c.Undergraduate_Admission</members>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
         <name>RecordType</name>
@@ -1581,6 +1594,7 @@
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>
         <members>ReturnOrderLineItem</members>
+        <members>Review__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
         <members>ServiceResourceSkill</members>

@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value>Applications</value>
     </caseValues>
+    <layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Graduate Admission --></label>
+        <name>Graduate_Admission</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Undergraduate Admission --></label>
+        <name>Undergraduate_Admission</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

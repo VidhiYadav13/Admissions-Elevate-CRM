@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Program of Interest --></label>
+    <name>Program_of_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Business Administration</masterLabel>
+        <translation><!-- Business Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer Science</masterLabel>
+        <translation><!-- Computer Science --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fine Arts</masterLabel>
+        <translation><!-- Fine Arts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mechanical Engineering</masterLabel>
+        <translation><!-- Mechanical Engineering --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
