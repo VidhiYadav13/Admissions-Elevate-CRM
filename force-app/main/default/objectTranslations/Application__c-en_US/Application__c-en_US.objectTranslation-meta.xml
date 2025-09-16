@@ -24,4 +24,8 @@
         <name>Undergraduate_Admission</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must select a Program of Interest before submitting an application. --></errorMessage>
+        <name>Program_of_Interest_is_Required</name>
+    </validationRules>
 </CustomObjectTranslation>

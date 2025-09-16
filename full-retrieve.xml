@@ -15,6 +15,7 @@
     </types>
     <types>
         <members>Account.Approval_Sample</members>
+        <members>Application__c.Computer_Science_Application_Review</members>
         <name>ApprovalProcess</name>
     </types>
     <types>
@@ -80,7 +81,7 @@
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.important__c</members>
-        <members>Application__c.Contact__c</members>
+        <members>Application__c.Applicant__c</members>
         <members>Application__c.Program_of_Interest__c</members>
         <members>Application__c.Status__c</members>
         <members>Application__c.Submission_Date__c</members>
@@ -538,6 +539,14 @@
         <members>SalesCloudMobile_UtilityBar</members>
         <members>TCS_LM_SF_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Application_Acceptance_Process</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Application_Acceptance_Process</members>
+        <name>FlowDefinition</name>
     </types>
     <types>
         <members>DE Default</members>
@@ -1619,6 +1628,7 @@
         <name>Translations</name>
     </types>
     <types>
+        <members>Application__c.Program_of_Interest_is_Required</members>
         <members>Opportunity.opp_rating_name</members>
         <name>ValidationRule</name>
     </types>
@@ -1638,6 +1648,10 @@
         <members>Account.First_Update</members>
         <members>Case.ChangePriorityToHigh</members>
         <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Application_Acceptance_Process</members>
+        <name>WorkflowFlowAutomation</name>
     </types>
     <version>64.0</version>
 </Package>

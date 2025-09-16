@@ -8,6 +8,10 @@
         <label><!-- Contact description --></label>
         <name>Contact_description</name>
     </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Application_Acceptance_Process</fullName>
+    </flowDefinitions>
     <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>

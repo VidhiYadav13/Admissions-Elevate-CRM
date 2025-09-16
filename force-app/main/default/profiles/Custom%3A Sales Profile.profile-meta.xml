@@ -4301,6 +4301,10 @@
         <field>my_custom_meta_data__mdt.rating__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Application_Acceptance_Process</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments>

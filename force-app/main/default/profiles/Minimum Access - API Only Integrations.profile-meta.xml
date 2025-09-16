@@ -4301,6 +4301,10 @@
         <field>my_custom_meta_data__mdt.rating__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Application_Acceptance_Process</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
     </layoutAssignments>
