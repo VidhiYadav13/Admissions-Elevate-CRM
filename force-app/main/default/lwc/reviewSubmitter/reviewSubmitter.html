@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Submit New Review" icon-name="standard:assessment">
+        <div class="slds-p-around_medium">
+            <p class="slds-m-bottom_medium">Submit your feedback for this application below.</p>
+
+            <lightning-combobox
+                name="recommendation"
+                label="Recommendation"
+                value={recommendation}
+                placeholder="Select Recommendation"
+                options={recommendationOptions}
+                onchange={handleChange}
+                required>
+            </lightning-combobox>
+
+            <lightning-textarea
+                name="comments"
+                label="Reviewer Comments"
+                value={comments}
+                onchange={handleChange}
+                class="slds-m-top_small">
+            </lightning-textarea>
+
+            <lightning-button
+                label="Submit Review"
+                variant="brand"
+                onclick={handleSubmit}
+                class="slds-m-top_medium">
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

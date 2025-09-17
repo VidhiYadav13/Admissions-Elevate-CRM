@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ReviewTriggerHandler</members>
-        <members>FindStaleApplicationsSchedulable</members>
-        <members>ReviewTriggerHandlerTest</members>
-        <members>FindStaleApplicationsSchedulableTest</members>
+        <members>ReviewController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>ReviewTrigger</members>
-        <name>ApexTrigger</name>
+        <members>reviewSubmitter</members>
+        <name>LightningComponentBundle</name>
     </types>
-    <types>
-        <members>Application__c.Requires_Follow_up__c</members>
-        <name>CustomField</name>
-    </types>
-    <version>59.0</version>
+    <version>60.0</version>
 </Package>
